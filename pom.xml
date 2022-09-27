@@ -8,8 +8,8 @@
 	<description>avec-maven</description>
 	
 	<properties>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>2.3.2</maven.compiler.target>
+		<maven.compiler.source>2.3.2</maven.compiler.source>
 	</properties>
 	
 	<dependencies>
