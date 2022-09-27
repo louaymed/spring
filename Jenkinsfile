@@ -7,6 +7,12 @@ pipeline {
                 echo 'Hello World'
             }
         }
+               stage('Build Artifact - Maven') {
+           steps {
+               sh "mvn clean install"
+               archive 'target/*.jar'
+       }
+     }
        stage('Build Artifact - Maven') {
            steps {
                sh "mvn clean package -DskipTests=true"
