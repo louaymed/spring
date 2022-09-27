@@ -4,7 +4,7 @@ pipeline {
   stages {
       stage('Build Artifact') {
             steps {
-                sh """ mvn -version """
+                sh 'echo "hello" '
             }
         }   
     }
